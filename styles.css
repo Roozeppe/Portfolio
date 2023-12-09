@@ -1,5 +1,25 @@
+.header {
+    /* height: fit-content; */
+    background-color: #1C2152;
+}
+ .nav_links{
+    text-align: right;
+ }
+
+ .nav_links a {
+    margin-right: 3%;
+ }
+
+.icon {
+    filter: invert(86%) sepia(44%) saturate(1668%) hue-rotate(155deg) brightness(103%) contrast(103%);
+    width: 50px;
+    height: 50px;
+}
+
+
 body {
     background-color: #1C2756;
+    padding-left:3%
 }
 
 p, li, h2, h4 {
