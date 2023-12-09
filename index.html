@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta attribute="value" charset='UTF-8'>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>JP's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!DOCTYPE html>
+    <html lang="en">
 </head>
+
 <body>
     <header>
-        
+        <i class="fa fa-linkedin fa-fw fa-lg"></i>
     </header>
     <main>
-        <section id="intro">
-            <p>Hello, World!</p>
+        <section class="intro">
+            <p class="till">Hello, World!</p>
             <h2>I'm JP.</h2>
             <h2>I teach machines how to learn.</h2>
 
@@ -22,18 +27,24 @@
             </p>
         </section>
         
-        <div id="skills">
-            <h4>A few of the Tools that I use:</h4>
-            <ul>
+        <div class="skills">
+            <h4>A few of the <span  class="till">Tools</span> that I use:</h4>
+            <ul class="skills_left">
                 <li>Python</li>
                 <li>TensorFlow</li>
                 <li>Pandas</li>
                 <li>Numpy</li>
             </ul>
+            <ul class="skills_right">
+                <li>Scikit-Learn</li>
+                <li>Matplotlib</li>
+                <li>Keras</li>
+                <li>Anaconda</li>
+            </ul>
         </div>
 
         <section id="projects">
-            <h4> A list of my Projects:</h4>
+            <h4> A list of my <span class="till">Procjects</span>:</h4>
             <img src="./images/housing.png" alt="A map of California"/>
             <p>Details</p>
             <p>Description</p>
@@ -51,24 +62,22 @@
         </section>
 
         <section id="certificates">
-            <h4> Some of my Certificates:</h4>
+            <h4> Some of my <span class="till">Certifications</span>:</h4>
             <img src="./images/mnist.jfif" alt="" />
             <p>Details</p>
             <p>Description</p>
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/D7A8HM6JQ79X", target="_blank">Verification link</a>
+            <a  style="text-decoration:none" href="https://www.coursera.org/account/accomplishments/specialization/certificate/D7A8HM6JQ79X", target="_blank">Verification link</a>
         </section>
     </main>
     <footer>
         <h4>Let's Connect!</h4>
         <address>
-            <a target="_blank" href="https://www.linkedin.com/in/roozeppe/">Linkedin</a>
-            <a target="_blank" href="https://www.github.com/roozeppe/">Github</a>
-            <a target="_blank" href="mailto:kidik777@gmail.com">kidik777@gmail.com</a>      
+            <a target="_blank" style="text-decoration:none" href="https://www.linkedin.com/in/roozeppe/">Linkedin</a>
+            <a target="_blank" style="text-decoration:none" href="https://www.github.com/roozeppe/">Github</a>
+            <a target="_blank" style="text-decoration:none" href="mailto:kidik777@gmail.com">kidik777@gmail.com</a>      
             <p>646.363.5720</p>
         </address>
     </footer>
-
-
 </body>
 
 </html>

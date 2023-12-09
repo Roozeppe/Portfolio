@@ -1,0 +1,41 @@
+body {
+    background-color: #1C2756;
+}
+
+p, li, h2, h4 {
+    color: #ADB4F2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #1C2152;
+}
+
+a {
+    color: #ADB4F2;
+}
+
+.intro {
+    width: 500px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* .skills_left {
+    text-align: left;
+}
+
+.skills_right {
+    text-align:  right;
+} */
+
+.skills ul {
+    display: inline-block;
+}
+
+.till {
+    color: #53F5FF;
+}
